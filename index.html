@@ -1,26 +1,29 @@
 <!doctype html>
 <html>
-    <head>
+
+	<!-- Header -->
+	<head>
 	    <script type="text/javascript">
-	    function toggle_visibility(id) {
-	       event.preventDefault();
-	       var e = document.getElementById(id);
-	       if(e.style.display == 'none')
-	          e.style.display = 'block';
-	       else
-	          e.style.display = 'none';
-	    }
+	    	function toggle_visibility(id) {
+	       		event.preventDefault();
+	       		var e = document.getElementById(id);
+	       		if(e.style.display == 'none')
+	       	  		e.style.display = 'block';
+	       		else
+	       	   		e.style.display = 'none';
+	    		}
 	    </script>
-	<style>
+
+		<style>
     		#link {color: #194392;}
-	.horizontal_line {
-            width: 100%;
-            height: 0px;
-            border-top: 1px solid grey;
-            line-height: 80%;
-	    margin: 0px 0 0px 0; 
-        }
-  	</style>    
+				.horizontal_line {
+            	width: 100%;
+            	height: 0px;
+            	border-top: 1px solid grey;
+            	line-height: 80%;
+	    		margin: 0px 0 0px 0; 
+        		}
+  		</style>
 		    
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -29,103 +32,105 @@
 		    
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 		<link rel="stylesheet" href="stylesheets/styles.css">	
-	    	<link rel="stylesheet" href="stylesheets/pygment_trac.css">	
+	    <link rel="stylesheet" href="stylesheets/pygment_trac.css">	
 	
 	    <meta name="viewport" content="width=device-width">
 	    <!--[if lt IE 9]>
 	    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->
-  </head>
+  	</head>
 
+	<!-- Body -->
 	
-  <body style=Helvetica Neue, Helvetica, Arial, sans-serif>
-    <div class="wrapper">
-      <header>
-	<h1 size = 19px <b>Joshua Weidmann</b></h1>
-        <img src="JW_Oxford.jpg">
-        <p>
-		<b>Research Assistant</b><br>
-		<a id = "link" href="https://economics.harvard.edu/">Harvard University</a> & <a id = "link" href="https://politik.uni-koeln.de/en/">University of Cologne</a><hr style='margin-top:-1em' />
-	
-	      	<a id = "link" href="CV_Joshua_Weidmann.pdf"> Curriculum Vitae (updated January 2024)</a><br><br>
-
-	     	Contact Information:<div class="horizontal_line"></div>
-		joshua.weidmann [at] gmx.de <br><br>
+  	<body style=Helvetica Neue, Helvetica, Arial, sans-serif>
+    	<div class="wrapper">
+			<!-- Header -->
+			<header>
+				<h1 size = 19px <b>Joshua Weidmann</b></h1>
+				<img src="JW_Oxford.jpg">
+				<p>
+					<b>Research Assistant</b><br>
+					<a id = "link" href="https://economics.harvard.edu/">Harvard University</a> & <a id = "link" href="https://politik.uni-koeln.de/en/">University of Cologne</a><hr style='margin-top:-1em' />
 		
-		Mailing Address:<div class="horizontal_line"></div>Hauptstrasse 4a<br>
-		55267 Merxheim<br>
-		Germany<br><br>
-	
-		Helpful Links:<div class="horizontal_line"></div>Follow me on <a id = "link" href="https://twitter.com/joshua_weidmann"><b>Twitter/X</b></a> &#x2022; <a id = "link" href="https://www.linkedin.com/in/joshua-weidmann-a02237175?original_referer=https%3A%2F%2Fwww.google.com%2F "><b>LinkedIn</b></a> 
-		<div class="container">
-			<a href="https://orcid.org/0009-0000-0205-6217"> <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20" height="20" /></a>
-     			<a href="https://scholar.google.de/citations?hl=de&user=v_O-weAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a> <br>
+					<a id = "link" href="CV_Joshua_Weidmann.pdf"> Curriculum Vitae (updated January 2024)</a><br><br>
 
-	</p>
-	    
-      </header>
-     <section>
-        <p>
-	  	Welcome! I am a research assistant in Political Economcy working with <a id = "link" href="https://wiso.uni-koeln.de/de/forschung/find-an-expert/expertinnen/prof-dr-michael-bechtel"> Prof. Michael M. Bechtel</a> 
-		at the  <a id = "link" href="https://portal.uni-koeln.de/en/uoc-home">University of Cologne</a> and with <a id = "link" href="https://economics.harvard.edu/people/david-yang">Prof. David Y. Yang</a>  
-	  	at <a id = "link" href="https://economics.harvard.edu/"> Harvard University's Department of Economics</a>. My research focuses on harnessing 
-		technological innovations like artificial intelligence (AI) for social science research as well as on mass preferences over political representation. 
-	<br><br>
-	  	I hold an MA in Politics and Public Administration from the <a id = "link" href="https://www.uni-konstanz.de/en/">University of Konstanz</a> and an 
-		MSc in Political Sociology from the <a id = "link" href="https://www.lse.ac.uk/ ">London School of Economics (LSE)</a>.  
-        </p>
-  
-    <h2><b>Work in Progress</b></h2>
-    <ol>
-        <li>"Dialing Up the Empathy: Using AI Chatbots to Conduct Qualitative Interviews in Mass Surveys" 
-          (with <a id = "link" href="https://wiso.uni-koeln.de/de/forschung/find-an-expert/expertinnen/prof-dr-michael-bechtel"> Michael M. Bechtel</a>, Aaron Cannon, and Michael Hess).
-        <i> <a id = "link" href="https://osf.io/2ets6/">[Preregistration]</a> <a id = "link" href="#" onclick="toggle_visibility('empathy');">[Abstract]</a></i>
-        <div id="empathy" style="display:none;"><br> The availability of artificial intelligence (AI) may enable researchers to study preference formation qualitatively 
-		through unstructured question formats that used to be too costly for inclusion in mass surveys. We experimentally assess whether AI chatbots and their empathic 
-		capabilities affect answers to sensitive and non-sensitive questions in qualitative conversations. Our design randomly assigns respondents to a series of pre-set, 
-		open-ended questions, a weakly empathic chatbot interviewer, or a highly empathetic chatbot. We evaluate chatbot performance with respect to the informational 
-		value of survey responses, perceived empathy and rapport, and price per complete. Our applications include political science (vote choice) and consumer research 
-		(drivers of purchasing behavior) questions. Since qualitative interviews promise to increase respondents’ willingness to provide truthful responses to sensitive 
-		questions that are particularly prone to social desirability bias, we also investigate attitudes toward abortion and hiring discrimination. 
-		The results shed light on whether AI chatbots are a more useful tool to qualitatively explore the determinants of preferences and overcoming social desirability problems
-		compared to using fixed, open-ended questions determined by the researcher. </div> 
-          &nbsp;
-        </li>
-	    
-	<li>"Geographic, Substantive, and Descriptive Representation Through the Lens of the Represented" 
-		(with <a id = "link" href="https://wiso.uni-koeln.de/de/forschung/find-an-expert/expertinnen/prof-dr-michael-bechtel"> Michael M. Bechtel</a>, 
-		<a id = "link" href="https://www.unilu.ch/fakultaeten/wf/professuren/simon-luechinger/#tab=c3116"> Simon Lüchinger</a>, and
-		<a id = "link" href="https://www.unilu.ch/fakultaeten/wf/professuren/prof-dr-lukas-d-schmid/#tab=c31152"> Lukas Schmid</a>).
-        <i><a id = "link" href="https://osf.io/my37s/metadata/osf">[Preregistration]</a> <a id = "link" href="#" onclick="toggle_visibility('representation');">[Abstract]</a></i>
-        <div id="representation" style="display:none;"><br> A central question in the study of democracy is how different types of political representation affect the performance of democratic
-		systems and, in turn, support for democracy. We contribute to this question by investigating mass preferences over geographic, substantive, and descriptive representation
-		through the lens of citizens. We explore preferences over democratic representation using data from surveys fielded to samples of the adult population in eight
-		industrialized democracies (Australia, Canada, Mexico, Spain, Switzerland, Portugal, Turkey, and the United States). Our main evidence is based on a novel conjoint-experimental
-		design that presents respondents with scenarios varying the level of over- and under-representation along geographic, substantive, and descriptive dimensions. By analyzing
-		how changes in the level of representation drives both support for a scenario and agreement with a set of statements that followed each conjoint task we identify whether
-		preferences over representation type mirror diverging beliefs about economic performance, redistribution, and legislative outcomes. We discuss the implications of these
-		findings for our understanding of electoral accountability, perceived responsiveness, and satisfaction with democracy. </div>
-          &nbsp;
-        </li>
-	    
-    </ol>
+					Contact Information:<div class="horizontal_line"></div>
+					joshua.weidmann [at] gmx.de <br><br>
+			
+					Mailing Address:<div class="horizontal_line"></div>Hauptstrasse 4a<br>
+					55267 Merxheim<br>
+					Germany<br><br>
+		
+					Helpful Links:<div class="horizontal_line"></div>Follow me on <a id = "link" href="https://twitter.com/joshua_weidmann"><b>Twitter/X</b></a> &#x2022; <a id = "link" href="https://www.linkedin.com/in/joshua-weidmann-a02237175?original_referer=https%3A%2F%2Fwww.google.com%2F "><b>LinkedIn</b></a> 
+					<div class="container">
+					<a href="https://orcid.org/0009-0000-0205-6217"> <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20" height="20" /></a>
+					<a href="https://scholar.google.de/citations?hl=de&user=v_O-weAAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a> <br>
+				</p>
+			</header>
 
-<h2><b>Talks</b></h2>
+			<!-- Section -->
+	     	
+			<section>
+        		<p>
+	  				Welcome! I am a research assistant in Political Economcy working with <a id = "link" href="https://wiso.uni-koeln.de/de/forschung/find-an-expert/expertinnen/prof-dr-michael-bechtel"> Prof. Michael M. Bechtel</a> 
+					at the  <a id = "link" href="https://portal.uni-koeln.de/en/uoc-home">University of Cologne</a> and with <a id = "link" href="https://economics.harvard.edu/people/david-yang">Prof. David Y. Yang</a>  
+	  				at <a id = "link" href="https://economics.harvard.edu/"> Harvard University's Department of Economics</a>. My research focuses on harnessing 
+					technological innovations like artificial intelligence (AI) for social science research as well as on mass preferences over political representation. 
+					<br><br>
+	  				I hold an MA in Politics and Public Administration from the <a id = "link" href="https://www.uni-konstanz.de/en/">University of Konstanz</a> and an 
+					MSc in Political Sociology from the <a id = "link" href="https://www.lse.ac.uk/ ">London School of Economics (LSE)</a>.  
+        		</p>
+
+    			<h2><b>Work in Progress</b></h2>
+					<ol>
+						<li>"Dialing Up the Empathy: Using AI Chatbots to Conduct Qualitative Interviews in Mass Surveys" 
+							(with <a id = "link" href="https://wiso.uni-koeln.de/de/forschung/find-an-expert/expertinnen/prof-dr-michael-bechtel"> Michael M. Bechtel</a>, Aaron Cannon, and Michael Hess).
+							<i> <a id = "link" href="https://osf.io/2ets6/">[Preregistration]</a> <a id = "link" href="#" onclick="toggle_visibility('empathy');">[Abstract]</a></i>
+							<div id="empathy" style="display:none;"><br> The availability of artificial intelligence (AI) may enable researchers to study preference formation qualitatively 
+							through unstructured question formats that used to be too costly for inclusion in mass surveys. We experimentally assess whether AI chatbots and their empathic 
+							capabilities affect answers to sensitive and non-sensitive questions in qualitative conversations. Our design randomly assigns respondents to a series of pre-set, 
+							open-ended questions, a weakly empathic chatbot interviewer, or a highly empathetic chatbot. We evaluate chatbot performance with respect to the informational 
+							value of survey responses, perceived empathy and rapport, and price per complete. Our applications include political science (vote choice) and consumer research 
+							(drivers of purchasing behavior) questions. Since qualitative interviews promise to increase respondents’ willingness to provide truthful responses to sensitive 
+							questions that are particularly prone to social desirability bias, we also investigate attitudes toward abortion and hiring discrimination. 
+							The results shed light on whether AI chatbots are a more useful tool to qualitatively explore the determinants of preferences and overcoming social desirability problems
+							compared to using fixed, open-ended questions determined by the researcher. </div> 
+							&nbsp;
+						</li>
+						
+						<li>"Geographic, Substantive, and Descriptive Representation Through the Lens of the Represented" 
+							(with <a id = "link" href="https://wiso.uni-koeln.de/de/forschung/find-an-expert/expertinnen/prof-dr-michael-bechtel"> Michael M. Bechtel</a>, 
+							<a id = "link" href="https://www.unilu.ch/fakultaeten/wf/professuren/simon-luechinger/#tab=c3116"> Simon Lüchinger</a>, and
+							<a id = "link" href="https://www.unilu.ch/fakultaeten/wf/professuren/prof-dr-lukas-d-schmid/#tab=c31152"> Lukas Schmid</a>).
+							<i><a id = "link" href="https://osf.io/my37s/metadata/osf">[Preregistration]</a> <a id = "link" href="#" onclick="toggle_visibility('representation');">[Abstract]</a></i>
+							<div id="representation" style="display:none;"><br> A central question in the study of democracy is how different types of political representation affect the performance of democratic
+							systems and, in turn, support for democracy. We contribute to this question by investigating mass preferences over geographic, substantive, and descriptive representation
+							through the lens of citizens. We explore preferences over democratic representation using data from surveys fielded to samples of the adult population in eight
+							industrialized democracies (Australia, Canada, Mexico, Spain, Switzerland, Portugal, Turkey, and the United States). Our main evidence is based on a novel conjoint-experimental
+							design that presents respondents with scenarios varying the level of over- and under-representation along geographic, substantive, and descriptive dimensions. By analyzing
+							how changes in the level of representation drives both support for a scenario and agreement with a set of statements that followed each conjoint task we identify whether
+							preferences over representation type mirror diverging beliefs about economic performance, redistribution, and legislative outcomes. We discuss the implications of these
+							findings for our understanding of electoral accountability, perceived responsiveness, and satisfaction with democracy. </div>
+							&nbsp;
+						</li>
+					</ol>
+
+				<h2><b>Talks</b></h2>
+					<ul>
+						<li>2024: EPSA</li>
+					</ul>       
 	     
-<ul>
-  <li>2024: EPSA</li>
-</ul>       
-	     
-  </section>
+  			</section>
 								     
-      <footer>
-        <p style="font-size:11px;"> This website uses the Github <a id = "link" href="https://github.com/orderedlist/minimal">minimal theme</a> and is inspired by the webistes
-		of <a id = "link" href="https://saschariaz.com/">Sascha Riaz</a> and <a id = "link" href="https://www.hannohilbig.com/">Hanno Hilbig</a>.</p>
-      </footer>
+		<footer>
+			<p style="font-size:11px;"> This website uses the Github <a id = "link" href="https://github.com/orderedlist/minimal">minimal theme</a> and is inspired by the webistes
+			of <a id = "link" href="https://saschariaz.com/">Sascha Riaz</a> and <a id = "link" href="https://www.hannohilbig.com/">Hanno Hilbig</a>.</p>
+		</footer>
       
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+    	</div>
+    	<script src="javascripts/scale.fix.js"></script>
+  	</body>
+	
 </html>  	
 
 
