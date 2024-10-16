@@ -9,7 +9,7 @@ body {
 .underline {
   display: inline;
   border-bottom: 1px solid grey;
-  padding-bottom: 2px;  /* Optional: To give some space between the text and the underline */
+  padding-bottom: 2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
