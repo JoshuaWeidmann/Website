@@ -1,0 +1,230 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  font-weight: 300;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  color: #004488;
+}
+
+a:hover {
+  color: #dd6600;
+}
+
+/* ---------- Headings ---------- */
+
+h3 {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #000;
+}
+
+h4 {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding: 0 10px;
+  color: #336699;
+}
+
+/* ---------- Text blocks ---------- */
+
+p {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-weight: 300;
+  margin: 0 0 12px;
+  padding: 0 10px;
+}
+
+ol, ul {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: justify;
+  margin: 0 0 10px;
+  padding-left: 40px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+/* Abstract / preregistration reveal blocks */
+.abstract {
+  font-size: 11px;
+  line-height: 16px;
+  color: #333;
+  text-align: justify;
+  font-weight: 300;
+  margin-top: 6px;
+  padding-right: 10px;
+}
+
+/* ---------- Overall frame ---------- */
+
+#central {
+  width: 775px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  border-bottom: 1px solid #bbbbbb;
+  overflow: auto;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 2px;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.affil {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #004488;
+  padding-left: 20px;
+}
+
+/* ---------- Left sidebar ---------- */
+
+#navigation {
+  position: relative;
+  float: left;
+  width: 190px;
+  text-align: left;
+  padding-top: 30px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#navigation img {
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
+.navtitle {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 5px;
+  margin-top: 14px;
+  padding: 2px;
+  padding-left: 4px;
+  border-bottom: 1px solid #999999;
+  font-size: 11px;
+  font-weight: 400;
+  color: #004488;
+}
+
+.navtitle a {
+  color: #004488;
+  font-weight: 400;
+}
+
+.navtitle a:hover {
+  color: #dd6600;
+}
+
+.navinfo {
+  font-family: 'Open Sans', sans-serif;
+  padding: 2px;
+  padding-left: 4px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.navinfo a {
+  color: #000000;
+}
+
+.navinfo a:hover {
+  color: #dd6600;
+}
+
+/* ---------- Right main column ---------- */
+
+#main {
+  float: right;
+  min-height: 400px;
+  height: auto !important;
+  width: 559px;
+  padding-left: 20px;
+  padding-right: 2px;
+  text-align: left;
+}
+
+.section {
+  width: 559px;
+}
+
+/* ---------- Footer ---------- */
+
+#footer {
+  clear: both;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  width: 765px;
+  border-top: 1px solid #bbbbbb;
+  padding: 2px 5px;
+  margin: 30px 0;
+  color: #333333;
+}
+
+/* ---------- Responsive ---------- */
+
+@media screen and (max-width: 820px) {
+  #central {
+    width: auto;
+    max-width: 640px;
+    margin: 0 15px;
+  }
+
+  #navigation,
+  #main,
+  #footer {
+    float: none;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #navigation {
+    padding-top: 20px;
+  }
+
+  .section {
+    width: auto;
+  }
+
+  #main img {
+    max-width: 100%;
+    height: auto;
+  }
+}
