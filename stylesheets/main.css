@@ -92,6 +92,19 @@ li {
   color: #444;
 }
 
+/* Publication status line (e.g. "Revision invited, Journal Name") */
+.pstatus {
+  padding-left: 30px !important;
+  color: #444;
+  font-style: italic;
+  margin-top: -8px;
+  margin-bottom: 4px;
+}
+
+.pstatus em {
+  font-style: italic;
+}
+
 /* Abstract / preregistration reveal blocks */
 .abstract {
   font-size: 12px;
@@ -101,10 +114,8 @@ li {
   font-weight: 300;
   margin-top: 8px;
   margin-left: 30px;
-  padding: 10px 14px;
-  background-color: #f6f7f9;
-  border-left: 2px solid #d8dce2;
-  border-radius: 3px;
+  padding: 2px 14px 2px 14px;
+  border-left: 2px solid #ddd;
 }
 
 /* ---------- Overall frame ---------- */
